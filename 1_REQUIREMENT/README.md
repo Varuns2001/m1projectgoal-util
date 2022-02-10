@@ -18,7 +18,18 @@ SWOT ANALYSIS:<br>
 
 DETAILED REQUIREMENT: <br>
 HIGH LEVEL REQUIREMENT: <br>
-![HLR 1](https://user-images.githubusercontent.com/99092710/153376555-c2a58f14-f66c-41f1-91d8-35ae2a0f852f.png) <br>
+| ID | Description |  
+| ----- | ----- | 
+| HLR_1 | User need to provide the Name | 
+| HLR_2 | User need to provide Email and Phone number | <br>
+
+LOW LEVEL REQUIREMENT: <br>
+| ID | Description | HLR ID |
+| ------ | --------- | ------ | 
+| LLR_1 | User need to select the topic from the display shown | HR01 |
+| LLR_2 | The selected topic is displayed on the screen | LLR_1 | <br>
+
+
 
 
 
