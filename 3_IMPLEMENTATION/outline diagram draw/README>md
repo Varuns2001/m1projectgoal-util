@@ -1,0 +1,30 @@
+#include <stdio.h><br>
+#include <stdlib.h><br>
+int i, j, height = 30;<br>
+int width = 30, gameover, score;<br>
+  
+void draw()<br>
+{<br>
+    system("cls");<br>
+    for (i = 0; i < height; i++) {<br>
+        for (j = 0; j < width; j++) {<br>
+            if (i == 0 || i == width - 1 || j == 0<br>
+                || j == height - 1) {<br>
+                printf("#");<br>
+            }<br>
+            else {<br>
+                printf(" ");<br>
+            }<br>
+        }<br>
+        printf("\n");<br>
+    }<br>
+}<br>
+  
+
+int main()<br>
+{<br>
+    
+    draw();<br>
+  
+    return 0;<br>
+}<br>
