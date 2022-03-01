@@ -1,53 +1,70 @@
-INTRODUCTION:<br>
-In this article, the task is to implement a basic Snake Game. Below given some functionalities of this game:<br>
+# **Requirements**
 
-The snake is represented with a 0(zero) symbol.<br>
-The fruit is represented with an *(asterisk) symbol.<br>
-The snake can move in any direction according to the user with the help of the keyboard (W, A, S, D keys).<br>
-When the snake eats a fruit the score will increase by 10 points.<br>
-The fruit will generate automatically within the boundaries.<br>
-Whenever the snake will touch the boundary the game is over.<br>
+## Introduction
 
-Steps to create this game:<br>
+Snakes and ladders, known originally as Moksha Patam, is an ancient Indian board game for two or more players regarded today as a worldwide classic which is played on a game board with numbered, gridded squares. It is a fun and an intresting game played by all age groups. A number of "snakes" and "ladders" are pictured on the board, each connecting two specefic squares. The objective of the game is to navigate the player's game piece based the output of a die roll, from start to finish. The players comes across many snakes and ladders at different squares. The ladders help the players to climb to a higher numbered square while the snakes decrease to a lower number square. The player who makes it to the last square first wins the game. The program written for this project, although doesn't actually provide a board to play, but uses the same logic for digital implementation of the game, with a maximum of 2 players.
 
-There will be four user-defined functions.<br>
-Build a boundary within which the game will be played.<br>
-The eggs are generated randomly.<br>
-Then increase the score whenever the snake eats a egg.<br>
-The user-defined functions created in this program are given below:<br>
+# **Research**
 
-Draw(): This function creates the boundary in which the game will be played.<br>
-Setup(): This function will set the position of the fruit within the boundary.<br>
-Input(): This function will take the input from the keyboard.<br>
-Logic(): This function will set the movement of the snake.<br>
+## Equipment
 
-4W’S and 1H:<br>
-Who:<br>
-Any user can use this project for learning the C program.<br>
-What:<br>
-Snake Game in C.<br>
-When:<br>
-User can use at any time when bored.<br>
-Where:<br>
-This Project can be used by the users at anywhere with a computer having windows or Linux Operating system.<br>
-How:<br>
-By choosing the correct keys for the operation to be performed. The user will be getting the result output on the display.<br>
+The size of the grid most commonly used in snakes and ladders is 8x8 with maximum square value of 64, 10x10 with a maximum square value of 100 or 12x12 with a maximum square value of 144. Each player is represented by a piece token and a die is rolled to determine the random movements of a player's token.
 
-SWOT ANALYSIS:<br>
-![SWOT ANALYSIS](https://user-images.githubusercontent.com/99092710/153373636-e4567ad5-1bf6-4dc9-bd4e-0b21377f8e6b.png) <br>
+## History
 
-DETAILED REQUIREMENT: <br>
-HIGH LEVEL REQUIREMENT: <br>
-| ID | Description |  
-| ----- | ----- | 
-| HLR_1 | User need to provide the Name | 
+Snakes and ladders originated in India as part of a family of dice board games. The game made its way to England and was sold as "Snakes and Ladders". Then the basic concept was introduced in the United States as _Chutes_ and _Ladders_  by game publisher Milton Bradley Company in 1943. In India, the game is often played by devotees of Hindu god Vishnu during the Vaikuntha Ekadashi festival in order to stay awake during the night.
 
-LOW LEVEL REQUIREMENT: <br>
-| ID | Description | HLR ID |
-| ------ | --------- | ------ | 
-| LLR_1 | User need to select the level from the display shown | HR01 |
-| LLR_2 | The selected level is displayed on the screen | LLR_1 | <br>
-
+    
+  # SWOT Analysis
+  
+  ## Strengths
+  
+  1) A very quick and simple game. 2) Can be played by people of any age group.3) Helps children practice counting and adding. 4) Easy to design.
+  
+  ## Weakness
+  1) Can lead to addiction in children. 2) With increase in number of players, the time delay increases. 3) The design of the board with too many snakes leads to increase in the chances of a player encountering a snake multiple times making the game long. 4). Waiting for the occurence of 1 on the dice to win a game can be very irritating.
+ 
+ ## Opportunities
+ 
+ 1. The game can be further developed to make it more fun and interesting.
+ 
+ ## Threats 
+ 
+ 1. Due to development of many digital games, ancient board games like "snakes and ladder" face the threat of extinction.
+ 
+ # 4W's and 1H
+  ## Who
+  ---
+  This game can be played by people of all age groups.
+  ## What
+  ---
+  Digital implementation of an ancient game of snakes and ladders.
+  ## When
+  ---
+  At times of having fun with family or fiends, to reduce stress and pressure and in learning stages for children.
+  ## Where
+  ---
+  Any place with availability to keep the board and space to roll the dice.
+  ## How
+  ---
+  A player rolls the dice and increases his pawn's position on the board till any of the player wins.
+  # Detailed Requirements
+  ## High level requirements
+  |  ID|Description|Status|
+  |---|---|---|
+  | HR01 | User should be able to read data from file | Implemented |
+  | HR02 | User should be able to modify the data in the file | Implemented |
+  | HR03 | If the game is not working properly, should raise an issue | Future | 
+  | HR04 | If the game is working properly, selecting number of players  | Future |
+  | HR05 | When a player wins, The game should print a message and exit the program | Implemented |
+  | HR06 | The game should correctly calculate and update the position values based on the roll | Implemented |
+  ## Low level requirements
+  |  ID|Description|Status|
+  |---|---|---|
+  | LR01 | Good readability of the code | Implemented |
+  | LR02 | The messages printed by the game should be catchy and encourage the players to play another round | Impemented|
+  | LR03 | The game code should be open for development | Implemented |
+  | LR04 | Implementing more than 5 players in one game | Future|
 
 
 
